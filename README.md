@@ -32,5 +32,5 @@ api-version: '1.20'
 load: STARTUP
 commands:
   chatgame:
-    description: Start or reload ChatgamesWhosvon
+    description: answer the chatgame question
     usage: /chatgame <answer>
