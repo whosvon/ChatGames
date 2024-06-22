@@ -1,0 +1,9 @@
+name: chatgamesWhosvon
+version: '${project.version}'
+main: com.whosvon.chatgames.chatgames.ChatgamesWhosvon
+api-version: '1.20'
+load: STARTUP
+commands:
+  chatgame:
+    description: Start or reload ChatgamesWhosvon
+    usage: /chatgame <answer>
