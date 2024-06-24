@@ -1,21 +1,20 @@
-# config.yml
-# reload with plugman
+ # config.yml
+ reload with plugman
 interval: 1800 # Interval in seconds (default 30 minutes)
 
-# Math question settings
+ Math question settings
 math_max_value: 50
 math_operations: ["+", "-", "*", "/"]
 
-# Word spelling challenge
+ Word spelling challenge
 words:
   - apple
   - banana
   - cherry
   - date
   - elderberry
-
 # plugin.yml
-# Custom messages
+ Custom messages
 start_message: "Answer the following question to win a reward:"
 correct_answer_message: "%player% answered correctly and won the reward!"
 reload_message: "ChatGames configuration reloaded."
